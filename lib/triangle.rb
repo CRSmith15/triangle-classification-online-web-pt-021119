@@ -12,5 +12,5 @@ class Triangle
     total_one_two = @triangle_side[0] + @triangle_side[1] 
     total_one_three = @triangle_side[0] + @triangle_side[2]
     total_two_three = @triangle_side[1] + @triangle_side[2]
-    if (triangle_side.none? {|side| side <= 0}) && (total_one_two > @triangle_side[2] && total)
+    if (triangle_side.none? {|side| side <= 0}) && (total_one_two > @triangle_side[2] && total_two_three )
 end
