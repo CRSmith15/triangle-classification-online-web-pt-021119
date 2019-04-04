@@ -18,4 +18,6 @@ class Triangle
       false 
     end
   end
+  
+  def kind
 end
