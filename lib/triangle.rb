@@ -23,5 +23,10 @@ class Triangle
     if valid?
       if @triangle_side.uniq.length == 3
         return :scalene
-        elsif 
+      elsif @triangle_side.uniq.lenth == 2 
+        return :isosceles
+      else 
+        return :equilateral
+      end
+    else 
 end
