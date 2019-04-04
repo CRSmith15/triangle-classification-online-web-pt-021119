@@ -29,4 +29,5 @@ class Triangle
         return :equilateral
       end
     else 
+      raise TriangleError
 end
