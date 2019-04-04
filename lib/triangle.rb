@@ -21,6 +21,7 @@ class Triangle
   
   def kind 
     if valid?
-      if @triangle_side.uniq.length == 
-        return
+      if @triangle_side.uniq.length == 3
+        return :scalene
+        
 end
