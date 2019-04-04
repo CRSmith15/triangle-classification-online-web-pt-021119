@@ -23,5 +23,5 @@ class Triangle
     if valid?
       if @triangle_side.uniq.length == 3
         return :scalene
-        
+        elsif 
 end
