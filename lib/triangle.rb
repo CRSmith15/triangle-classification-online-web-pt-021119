@@ -19,5 +19,7 @@ class Triangle
     end
   end
   
-  def kind
+  def kind 
+    if valid?
+      
 end
