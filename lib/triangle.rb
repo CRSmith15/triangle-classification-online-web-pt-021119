@@ -17,4 +17,5 @@ class Triangle
     else 
       false 
     end
+  end
 end
